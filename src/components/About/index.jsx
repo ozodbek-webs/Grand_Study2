@@ -6,7 +6,7 @@ const About = () => {
             <div className="about" id="about">
                 <h1>About</h1>
                 <div className="df">
-                    <div className="card">
+                    <div className="card1">
                         <div className="on">ONLINE</div>
                         <p className="text">
                             3x lessen - per week
@@ -43,7 +43,7 @@ const About = () => {
 
                         </p>
                     </div>
-                    <div className="card">
+                    <div className="card1">
                         <div className="on">OFFLINE</div>
                         <p className="text">
                             4x lessen - per week
@@ -80,7 +80,7 @@ const About = () => {
 
                         </p>
                     </div>
-                    <div className="card">
+                    <div className="card1">
                         <div className="on">PRIMARY</div>
                         <p className="text">
                             5x lessen - per week
