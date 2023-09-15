@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    margin-left: -152px;
+    height: 83px;
+    background: #2A313C;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 123;
+    box-shadow: 0px 6px 50px #2A313C;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 98%;
+        margin: 0 auto;
+
+
+        .df {
+            margin-top: -30px;
+            display: flex;
+            justify-content: space-between;
+            width: 35%;
+        }
+
+        .gold_circle {
+            margin-top: 27px;
+            background-color: gold;
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+}
+
+        .logo {
+            margin-left: 1.9px;
+            margin-top: 0.2px;
+            border-radius: 5px;
+            width: 69.1px;
+            height: 72px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+
+        .logoText {
+            margin-top: 37px;
+            font-weight: 700;
+            font-family: 'Roboto Slab', serif;
+            color: #F4BF21;
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            height: 80px;
+            list-style-type: none;
+
+            .items {
+                margin-top: 10px;
+
+                .link {
+                    color: white;
+                    text-decoration: none;
+
+                    select {
+                        color: white;
+                        background: #2A313C;
+                        outline: none;
+                        margin-top: -10px;
+                        width: 74px;
+                        height: 35px;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ourTeacher {
+    text-align: center;
+}
